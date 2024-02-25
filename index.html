@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Desafio Java Script</title>
+</head>
+
+<body>
+    <img class="logo" src="./assets/1f4b8.gif" alt="logo-gif">
+    <main>
+        <label>
+            Converter <b>de</b>
+            <select>
+
+                <option>$ Peso Mexico</option>
+
+            </select>
+        </label>
+        <label>
+            Converter <b>para</b>
+            <select class="currency-select">
+                <option value="real">R$ Real</option>
+                <option value="euro">€ Euro</option>
+                <option value="dolar">US$ Dólar americano</option>
+            </select>
+
+        </label>
+        <label>
+            Valor
+            <input class="input-currency" placeholder="R$50.000,00">
+            <button class="convert-button">Converter</button>
+            <section>
+                <div class="currency-box">
+                    <img class="logo-img"
+                        src="./assets/kisspng-flag-circle-font-mexico-5ab0620e325b81.0357492315215088782063.png"
+                        alt="moeda-convertida">
+                    <p class="currency">Peso Mexicano</p>
+                    <p class="currency-value-to-convert">$</p>
+                </div>
+                <img class="arrow-img" src="./assets/arrow-8619_128c6rt.gif" alt="seta">
+                <div class="currency-box">
+                    <img class="currency-img" src="./assets/Real.png" alt="converter-moeda">
+                    <p class="currency" id="currency-name">Real</p>
+                    <p class="currency-value">R$ 00</p>
+                </div>
+            </section>
+        </label>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
